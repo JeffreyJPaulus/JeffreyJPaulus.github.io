@@ -1,0 +1,23 @@
+/*--Jeffrey Paulus
+    9-19-23*/
+
+header,footer{
+    background-color:blue; 
+}
+p,ul,li{
+    font-size: 20px;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+    
+}
+a:active{
+    font-size:large;
+    color:brown;
+}
