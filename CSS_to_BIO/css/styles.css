@@ -1,0 +1,22 @@
+/*Jeffrey Paulus
+    9-21-23*/
+
+h1{
+    color:blue
+}
+.Highlight{
+    font-size: large;
+    background-color: lightgreen;
+}
+.Highlight-Bold{
+    font-weight:bolder;
+    
+}
+
+/* alert classes*/
+.alert{
+    background-color: red;
+}
+.blue{
+    color:blue;
+}
