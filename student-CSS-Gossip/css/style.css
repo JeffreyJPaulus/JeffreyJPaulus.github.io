@@ -12,11 +12,11 @@ h1{
 
 h3{
     font-size: 1.5em;
-    border-bottom: 1px,solid,black;
+    border-bottom: 1px solid black;
 }
 .fonts{
     color:orange;
-    font-family: 'Comic Sans MS',sans-serif;
+    font-family: 'Comic Sans MS' ,'sans-serif';
     font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
@@ -30,7 +30,7 @@ h3{
 .more{
     color:blue;
     text-decoration: underline;
-    border:1px,dashed,gray;
+    border:1px dashed gray;
     background-color: #D69BBE;
 }
 
