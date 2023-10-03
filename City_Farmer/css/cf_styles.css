@@ -1,0 +1,64 @@
+
+/*Jeffrey Paulus
+10-3-23 */
+
+#outerwrapper {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+} 
+
+.floatleft { 
+float: left;
+
+}
+
+.floatright {
+float: right;
+
+}
+
+main, footer { 
+clear: both;
+}
+
+body {
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+.floatleft{
+	margin-right: 3%;
+}
+
+.floatright{
+	margin-left: 3%;
+}
+nav ul{
+	list-style: none;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40pt;
+}
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: normal;
+	font-style: italic;
+}
+main ul{
+	list-style-image: url("../images/tomato_small.png");
+}
+footer{
+	font-size: .75em;
+	text-align: center;
+	background-color: blanchedalmond;
+	padding: 10px 0px;
+
+}
