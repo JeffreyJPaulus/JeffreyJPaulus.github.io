@@ -1,0 +1,9 @@
+/* Practice CustomFonts Style Sheet */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+.websafe{
+    font-family: Arial, Courier, "Courier New";
+}
+.google {
+    font-family: "Dancing Script",'Dosis', Georgia, serif;
+}
