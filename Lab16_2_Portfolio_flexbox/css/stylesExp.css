@@ -1,0 +1,83 @@
+/* Jeffrey Paulus */
+/* 10-31-23 */
+/* css used to style experience.html */
+/*   display project examples        */
+
+    .projectExamples {
+
+        
+        width: 75%;
+        margin: 0 auto;
+        
+
+    }
+
+ 
+
+    .semester {
+        background:#00008833; 
+        color: #FFFFFF;
+        padding: 15px;
+        width: 90%;
+    }
+
+   
+    .flexContainer img {
+        margin-bottom: 20px;
+    }
+
+
+
+    .button {
+        display: block;
+        width: 45%;
+        margin: 10px auto;
+        color: #FFFFFF;
+        background: #00008833;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 1px;
+    }
+    footer {
+        text-align: center;
+    }
+
+
+
+    .flexContainer{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        background: #FFFFFF;
+        border: 1px dashed #000000;
+        margin: 10px;
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+    }
+    .jmp{
+        order: 3;
+        border-style: dashed;
+        margin: 10px;
+        width:70%;
+    }
+    .excel{
+        order: 2;
+        margin: 10px;
+        border-style: dashed;
+        width:40%;
+        
+    }
+    .sqlServer{
+        order: 1;
+        border-style: dashed;
+        margin: 10px;
+        width:40%;
+
+    }
+   
+   
