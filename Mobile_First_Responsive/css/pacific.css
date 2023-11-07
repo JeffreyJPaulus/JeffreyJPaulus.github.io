@@ -1,0 +1,109 @@
+/*************************** Mobile ***************************/
+
+body 
+{ 
+	background-color: #FFFFFF;
+    color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header 
+{ 
+	background-color: #000033;
+    color: #FFFFFF; 
+	background-image: url("../images/sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat; 
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+nav
+{ 
+	background-color: #90C7E3;
+    font-weight: bold;
+	display: block;
+	
+}
+
+h1 
+{ 
+	margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif; 
+}
+	
+h2 
+{ 
+	color: #3399CC; 
+    font-family: Georgia, 'Times New Roman', serif; 
+	display: none;
+}
+	 
+h3 
+{ 
+	color: #000033;
+    font-family: Georgia, 'Times New Roman', serif; 
+	
+}
+
+
+
+footer 
+{ 
+	font-size: 75%;
+    
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', serif;
+	background: linear-gradient(rgba(255,255,255,1),rgba(144,199,227,1));
+}
+	   
+dt 
+{ 
+	color: #000033; 
+}
+
+.resort 
+{ 
+	color: #5C7FA3; 
+    font-weight: bold;
+	
+}
+
+#contact
+{ 
+	font-size: 90%; 
+}
+
+main ul{
+	list-style-image: url("../images/marker.gif") ;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+img
+{
+    display: none;
+}
+
+
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px) {
+   
+	img
+	{
+		display: block;
+		
+	}  
+	
+	nav ul li{
+		display: inline ;
+		
+	}
+	h2{
+		display: block;
+	}
+}
+
