@@ -1,0 +1,72 @@
+/* css used to target all portfolio web pages */
+/* applies to all web pages to promote consistency       */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@font-face {
+	font-family: roboto;
+	src: url('../fonts/Roboto-Italic.ttf')  format('truetype');
+  }
+
+
+/*************************** Mobile ***************************/
+
+a:link{
+    color:blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    font-family: roboto, Arial,Verdana,Tahoma;
+}
+a:active{
+    color:brown;
+}
+
+body {
+    background: rgba(210, 223, 250, 0.404);
+    color: #333333;
+    font-size: 1.25rem;
+    position: relative;
+}
+nav ul li {
+    list-style-type:square;
+}
+
+
+
+footer{
+    /*display: none;*/
+    background: rgba(15, 16, 19, 0.404);
+    color: white;
+}
+
+header{
+    /*display: none;*/
+    background: rgba(15, 16, 19, 0.404);
+    
+    color: white;
+}
+
+
+
+/*************************** Tablet ***************************/	
+@media screen and (min-width:641px) {
+    body {
+        background-image: linear-gradient(#c7c7f3,#765ab0);
+    }
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+        padding-inline: 1rem;
+    }
+    footer {
+        text-align: center;
+        position:relative;
+        bottom:0;
+        width: 100%;
+        
+    }
+
+}
+
+

@@ -1,0 +1,114 @@
+/* Jeffrey Paulus */
+/* 10-31-23 */
+/* css used to style experience.html */
+/*   display project examples        */
+
+
+
+table {
+    border:2px solid #b3adad;
+    padding:5px;
+    border-spacing: 0px;
+}
+thead{
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+}
+th {
+    border:1px solid #b3adad;
+    border-collapse: collapse;
+    padding:5px;
+    
+    background: #f0f0f0;
+    color: #313030;
+}
+td {
+    border:1px solid #b3adad;
+    border-collapse: collapse;
+    text-align:left;
+    padding:5px;
+    
+    background: #ffffff;
+    color: #313030;
+}
+
+#Titles{
+    font-weight:bolder;
+}
+
+   .semester {
+        background:#00008833; 
+        color: #FFFFFF;
+        padding: 15px;
+        width: 90%;
+    }
+
+   
+    .flexContainer img {
+        margin-bottom: 20px;
+    }
+
+
+
+    .button {
+        display: block;
+        width: 45%;
+        margin: 10px auto;
+        color: #FFFFFF;
+        background: #00008833;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 1px;
+    }
+ 
+
+
+
+    .flexContainer{
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items:center;
+        background: #FFFFFF;
+        border: 1px dashed #000000;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .jmp{
+        order: 3;
+        border-style: dashed;
+    }
+    .excel{
+        order: 2;
+        margin: 10px;
+        border-style: dashed;
+        padding: 40px;
+        
+    }
+    .sqlServer{
+        order: 1;
+        border-style: dashed;
+    }
+    .tableau{
+        order: 4;
+        border-style: dashed;
+    }
+    section{
+        display: block;
+    }
+   
+
+   
+    @media screen and (min-width:1100px) {
+        .flexContainer{
+
+            flex-direction: row;
+
+        }
+    }
