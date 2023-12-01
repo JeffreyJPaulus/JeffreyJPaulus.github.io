@@ -1,4 +1,5 @@
-/* css used to target all portfolio web pages */
+/* Jeffrey Paulus */
+/* 12-1-23 */
 /* applies to all web pages to promote consistency       */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
 @font-face {
@@ -9,8 +10,12 @@
 
 /*************************** Mobile ***************************/
 
-a:link{
+nav a:link{
     color:blue;
+}
+a:link{
+    color:rgb(0, 110, 255);
+    font-weight: bold;
 }
 a:visited{
     color: purple;
@@ -20,6 +25,7 @@ a:hover{
 }
 a:active{
     color:brown;
+    
 }
 
 body {
@@ -53,7 +59,9 @@ header{
     margin-right: auto;
     width: 50%;
 }
-
+caption{
+    font-style: italic;
+}
 
 /*************************** Tablet ***************************/	
 @media screen and (min-width:641px) {
