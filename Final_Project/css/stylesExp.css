@@ -1,5 +1,5 @@
 /* Jeffrey Paulus */
-/* 10-31-23 */
+/* 12-1-23 */
 /* css used to style experience.html */
 /*   display project examples        */
 
@@ -80,25 +80,22 @@ td {
         padding: 10px;
         justify-content: space-evenly;
     }
-    .jmp{
+    .Canvas_Project{
         order: 3;
         border-style: dashed;
     }
-    .excel{
+    .Gradient_Project{
         order: 2;
         margin: 10px;
         border-style: dashed;
         padding: 40px;
         
     }
-    .sqlServer{
+    .Build_Block{
         order: 1;
         border-style: dashed;
     }
-    .tableau{
-        order: 4;
-        border-style: dashed;
-    }
+
     section{
         display: block;
     }
