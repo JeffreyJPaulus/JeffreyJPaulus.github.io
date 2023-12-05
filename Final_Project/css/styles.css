@@ -1,7 +1,9 @@
+
 /* Jeffrey Paulus */
 /* 12-1-23 */
 /* applies to all web pages to promote consistency       */
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Philosopher&display=swap');
 @font-face {
 	font-family: roboto;
 	src: url('../fonts/Roboto-Italic.ttf')  format('truetype');
@@ -60,7 +62,8 @@ header{
     width: 50%;
 }
 caption{
-    font-style: italic;
+    font-family: 'Philosopher', sans-serif, Arial, Helvetica,Verdana,Tahoma;
+    
 }
 
 /*************************** Tablet ***************************/	
