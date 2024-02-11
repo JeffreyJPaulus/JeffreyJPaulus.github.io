@@ -1,0 +1,40 @@
+/****************************************************************
+*Original Author: Jeffrey Paulus                                *
+*Date Created: 2-9-24                                           *
+*Version: 0.1                                                   *
+*Date Last Modified: 2-9-24                                     *
+*Modified by: Jeffrey Paulus                                    *
+*Modification log:                                              *
+***0.1 - 2-9-24 - Created for Project 2                        *
+*************************************************************** */
+
+main {
+    ackground-color: lightblue;
+    opacity: 0.7;
+}
+
+main h1,form {
+    
+    opacity: 1;
+    text-align: center;
+    margin:20px;
+    font-weight:bolder;
+    color:black;
+    
+}
+
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
