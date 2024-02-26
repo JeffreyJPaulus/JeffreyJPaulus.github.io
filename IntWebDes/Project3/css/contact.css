@@ -1,0 +1,42 @@
+/****************************************************************
+*Original Author: Jeffrey Paulus                                *
+*Date Created: 2-9-24                                           *
+*Version: 0.1                                                   *
+*Date Last Modified: 2-9-24                                     *
+*Modified by: Jeffrey Paulus                                    *
+*Modification log:                                              *
+***0.1 - 2-9-24 - Created for Project 2                         *
+***0.2 - 2-25-24 - Updated for Project 3                        *
+*************************************************************** */
+
+
+
+main h1,form {
+    
+    
+    text-align: left;
+    margin:20px;
+    
+    
+}
+
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+#spanThanks{
+    color: black;
+    font-weight: bold;
+    font-size:40px;
+}
