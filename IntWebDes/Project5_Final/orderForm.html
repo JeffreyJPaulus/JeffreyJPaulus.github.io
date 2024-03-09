@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<!---------------------------------------------------------------------------------------
+#Original Author: Jeffrey Paulus                                                        #
+#Date Created: 3-8-24                                                                   #
+#Version: 0.1                                                                           #
+#Date Last Modified: 3-8-24                                                             #
+#Modified by: Jeffrey Paulus                                                            #
+#Modification log:                                                                      #
+#--Version 0.1 - 3-8-24 - Created for Final Project                                     #
+---------------------------------------------------------------------------------------->
+
+<html>
+<head>
+    <meta name="author" content="Jeffrey Paulus" >
+    <meta charset="UTF-8" >
+    <meta name="description" content="Jeffrey Paulus CWI Student Boise Idaho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Order Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/orderForm.js"></script>
+</head>
+<body>
+    <header>
+        <h1>
+          <a href="index.html"><img src="images/dice_pile.png" alt="Pile 'O Dice " width="110" height="100"></a>
+          <!-- image from  https://www.google.com/url?sa=i&url=https%3A%2F%2Fthedicedungeon.co.uk%2F&psig=AOvVaw1hLeIq35HfrEt0iPc4wVEi&ust=1706270235324000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNDglZO--IMDFQAAAAAdAAAAABAE-->
+          DnD Dice World
+        </h1>
+        <h3>Find all your Dice Needs at DnD Dice World</h3>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="Dice_Sets.html">Dice Sets</a></li>
+                <li><a href="orderForm.html">Order Form</a></li>
+            </ul>
+        </nav>
+      </header>
+    <main>
+        <br><br>
+<div id="checkboxes">
+    <input id="chkbx_0" type="checkbox" name="Metal" />Metal Dice
+    <input id="chkbx_1" type="checkbox" name="Acrylic" />Acrylic Dice
+    <input id="chkbx_2" type="checkbox" name="Resin" />Resin Dice
+    <input id="chkbx_3" type="checkbox" name="Mixed" />Mixed Set
+</div>
+<br><br>
+<div id="result">
+    <label for="result">Items in Cart</label>
+    <input type="text" name = "result" id="results">
+</div>
+
+
+<h1>Shipment information</h1>
+<form id="email_form" name="email_form"
+      action="order_complete.html" method="get">
+    <div>
+        <label for="name">Name to Ship To:</label>
+        <input type="text" id="Name" name="Name">
+        <span id="spanName">*</span>
+    </div>
+    
+    <div>
+        <label for="address1">Ship to Address:</label>
+        <input type="text" id="address_1" name="address_1">
+        <span id="spanAddress1">*</span>
+    </div>
+    
+    <div>
+        <label for="address2">Ship to Address(2):</label>
+        <input type="text" id="address_2" name="address_2">
+        <span id="spanAddress2"></span>
+    </div>
+    <div>
+        <label for="city">City:</label>
+        <input type="text" id="City" name="City">
+        <span id="spanCity">*</span>
+    </div>
+    <div>
+        <label for="state">State:</label>
+        <input type="text" id="State" name="State">
+        <span id="spanState">*</span>
+    </div>
+    <div>
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" id="ZipCode" name="ZipCode">
+        <span id="spanZipCode">*</span>
+    </div>
+    <section  class = "cc-container">
+    <div class="cc">
+        <label for="card">CC Number:</label>
+        <input type="text" id="card" name="card">
+        <span id="spanCard">*</span>
+    </div>
+    
+    <div class="cc">
+        <label for="cc-date">Credit Card Exp Date:</label>
+        <!-- <input type="text" id="cc-date" name="cc-date"> -->
+        <input type="text" id="datepicker" name="cc-date">
+        <span id="spanCc-date">*</span>
+    </div>
+</section>
+
+    <div>
+        <label>&nbsp;</label>
+        <input type="button" id="order" value="Order Now">
+        <input type="reset" id="clear_form" value="Clear Form">
+        <label>&nbsp;</label>
+        <br><br>
+        
+    </div>     
+    
+</form>
+
+</main>
+<footer>
+    Contact at: <a href="telto:+12085551111">1-208-555-1111 </a> <br>
+</footer>
+</body>
