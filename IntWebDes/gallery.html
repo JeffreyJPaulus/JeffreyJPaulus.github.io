@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-------------------------------------------------------
+#Original Author: Jeffrey Paulus                         #
+#Date Created: 3-15-24                                   #
+#Version: 0.1                                            #
+#Date Last Modified: 3-15-24                             #
+#Modified by: Jeffrey Paulus                             #
+#Modification log:                                       #
+#--Version 0.1 - 3-15-24 -  Creation                     #
+#--Version 0.2 - 3-17-24 -  Added more content           #
+--------------------------------------------------------->
+
+
+<html lang="en">
+<head>
+    <meta name="author" content="Jeffrey Paulus" >
+    <meta charset="UTF-8" >
+    <meta name="description" content="Jeffrey Paulus CWI Student Boise Idaho" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Vehicle Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"> 
+</head>
+
+<body>
+    <header>
+        <h1>
+          <a href="index.html"><img src="images/car_lot.jpg" alt="Pile 'O Dice " width="200" height="100"></a>
+          THE Dealerships
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ErrorPage.html">Error Page</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Media Gallery</a></li>
+                <li><a href="inventory2.html">Inventory</a></li>
+            </ul>
+        </nav>
+      </header>
+    <main>
+        <section>
+            <h1>Selection</h1>
+            <div id="accordion">
+                <h3><a href="#">Trucks</a></h3>
+                <div>
+                    <p>We carry 3 truck styles to meet your needs.  These include a Crew Cab when you need to the team to travel to a site, a double cab 
+                        which adds some extra room for passengers without as much added length to the vehicle, and the standard truck features only two front seats. Click on the images below for inventory.
+                        <div>
+                            <a href="inventory2.html #ccab"><img src="images/crew_truck.jpg" alt="Crew Truck"></a>
+                            <a href="inventory2.html #dcab"><img src="images/dub_cab_truck.jpg" alt="Double Cab Truck"></a>
+                            <a href="inventory2.html #rcab"><img src="images/reg_truck.jpg" alt="Regular Cab Truck"></a>
+                        </div>
+                    </p>
+                </div>
+                <h3 ><a href="#">Vans</a></h3>
+                <div>
+                    <p>The models of vans we carry offer something for everyone.  Full size vans to transport groups of people, Mini Vans for families and 
+                        groups that do not need a large of capacity, and the work\utility Vans. Click on the images below for inventory.
+                        <div>
+                            <a href="inventory2.html #fvan"><img src="images/full_van.jpg" alt="Full Size Van"></a>
+                            <a href="inventory2.html #mvan"><img src="images/mini_van.jpg" alt="Mini Van"></a>
+                            <a href="inventory2.html #wvan"><img src="images/work_van.jpg" alt="Work\Utility Van"></a>
+                        </div>
+                    </p>
+                </div>
+                <h3><a href="#" >Cars</a></h3>
+                <div>
+                    <p>Cars that we have to choose from are full size, mid size and compact. Click on the images below for inventory.
+                        <div>
+                            <a href="inventory2.html #fcar"><img src="images/full_car.jpg" alt="Full Size Car"></a>
+                            <a href="inventory2.html #mcar"><img src="images/mid_car.jpg" alt="Mid Size Car"></a>
+                            <a href="inventory2.html #ccar"><img src="images/comp_car.jpg" alt="Compact Car"></a>
+                        </div>
+                    </p>
+                </div>
+
+
+              
+        </section>
+        <section>
+            <h1>Vehicles in stock</h1>
+            <div class="cycle-slideshow"
+                data-cycle-fx="fadeout"
+                data-cycle-speed = "1000"
+                data-cycle-timeout="2000"
+                data-cycle-caption="#adv-custom-caption"
+                data-cycle-caption-template="Slide {{slideNum}}: {{cycleTitle}}" >
+                <img src="images/reg_truck.jpg" alt="" data-cycle-title="Regular Sized Truck">
+                <img src="images/dub_cab_truck.jpg" alt="" data-cycle-title="Double Cab Truck">
+                <img src="images/crew_truck.jpg" alt="" data-cycle-title="Crew Cab Truck">
+                <img src="images/full_car.jpg" alt="" data-cycle-title="Full Size Car">
+                <img src="images/mid_car.jpg" alt="" data-cycle-title="Mid Size Car">
+                <img src="images/comp_car.jpg" alt="" data-cycle-title="Compact Car">
+                <img src="images/full_van.jpg" alt="" data-cycle-title="Full Size Van">
+                <img src="images/mini_van.jpg" alt="" data-cycle-title="Mini Van">
+                <img src="images/work_van.jpg" alt="" data-cycle-title="Work\Utility Van">
+                <!-- empty element for caption -->
+                <div id="adv-custom-caption"></div>
+            </div>      
+            <br><br><br><br>
+        </section>
+    </main>
+	<footer>
+        Contact at: <a href="telto:+12085551111">1-208-555-1111 </a> <br>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script> 
+    <script src="js/Dice_Set.js"></script>
+</body>
+</html>

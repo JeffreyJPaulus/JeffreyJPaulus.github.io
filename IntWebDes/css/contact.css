@@ -1,0 +1,47 @@
+/****************************************************************
+*Original Author: Jeffrey Paulus                                *
+*Date Created: 3-17-24                                          *
+*Version: 0.1                                                   *
+*Date Last Modified: 3-17-24                                    *
+*Modified by: Jeffrey Paulus                                    *
+*Modification log:                                              *
+***0.1 - 3-17-24 - Creation                                     *
+*************************************************************** */
+
+
+
+main h1,form {
+    
+    
+    text-align: left;
+    margin:20px;
+    
+    
+}
+
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+#spanThanks{
+    color: black;
+    font-weight: bold;
+    font-size:40px;
+}
+.cc-container{
+    display: flex;
+}
+.cc {
+    flex: 1;
+}
